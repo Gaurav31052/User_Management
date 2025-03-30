@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
           onChange={(e) => setEmail(e.target.value)}
           required
         /></div>
-        <div><span>Password : </span> <input className="border-2 border-purple-300 rounded-md p-1 w-33 md:w-full"
+        <div><span>Password : </span> <input className="border-2 border-purple-300 rounded-md p-1 w-33 "
           type="password"
           placeholder="Password"
           value={password}

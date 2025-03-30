@@ -79,7 +79,7 @@ const UsersList = ({ onLogout }) => {
           </div>
         ))}
       </div>
-      <div className="pagination flex justify-center gap-3 items-center w-1/4">
+      <div className="pagination flex justify-center g- items-center w-1/4">
         <button className="bg-white mx-5 p-3 mb-7 rounded-full" onClick={() => setPage(page - 1)} disabled={page === 1}>Previous</button>
         <span className="font-semibold mx-5 p-3 mb-7 rounded-full">Page {page}</span>
         <button className="bg-white mx-5 p-3 mb-7 rounded-full" onClick={() => setPage(page + 1)} disabled={page * usersPerPage >= filteredUsers.length}>Next</button>

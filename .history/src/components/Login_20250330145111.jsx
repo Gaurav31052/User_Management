@@ -15,14 +15,14 @@ const Login = ({ onLogin }) => {
     <div className=" bg-transparent p-10 rounded-lg shadow-2xl h-96 w-64 md:w-64 lg:w-96  flex-col justify-center items-center">
       <h2 className=" text-4xl font-bold text-purple-900 mb-5">Login</h2>
       <form onSubmit={handleSubmit} className="flex-col justify-center items-center space-y-4">
-       <div><span>Email : </span> <input className="border-2 border-purple-300 rounded-md p-1 w-33 md:w-full"
+       <div><span>Email : </span> <input className="border-2 border-purple-300 rounded-md p-1"
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
         /></div>
-        <div><span>Password : </span> <input className="border-2 border-purple-300 rounded-md p-1 w-33 md:w-full"
+        <div><span>Password : </span> <input className="border-2 border-purple-300 rounded-md p-1 w-"
           type="password"
           placeholder="Password"
           value={password}
