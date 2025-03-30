@@ -1,12 +1,29 @@
-# React + Vite
+# User Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a **User Management** system built with React.
 
-Currently, two official plugins are available:
+## 🚀 Getting Started
+Follow these steps to set up and run the project on your local machine.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### 📥 Clone the Repository
+Open your terminal and run the following command to clone the repository:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/Gaurav31052/User_Management.git
+
+## 📂 Navigate to Project Directory
+Change your working directory to the project folder:
+
+- cd User_Management
+ ## 📦 Install Dependencies
+Run the following command to install all required dependencies:
+  - npm install
+## ▶️ Run the Application
+Start the development server with:
+
+  - npm run dev
+The application will now be available at http://localhost:3000/ by default.
+
+## 🌐 Live Demo
+Check out the deployed version of the project here:
+- 🔗 (https://user-management-nuptiiqln-gauravs-projects-000c3b68.vercel.app/)
