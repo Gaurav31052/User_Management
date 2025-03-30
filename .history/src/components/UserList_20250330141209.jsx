@@ -56,7 +56,7 @@ const UsersList = ({ onLogout }) => {
   return (
     <div className="min-h-screen bg-purple-200 overflow-hidden ">
     <div className="flex justify-around items-center p-5 gap-2">
-      <h2 className=" lg:text-4xl md:text-2xl text-xl font-extrabold text-purple-900 ">Users List</h2>
+      <h2 className=" lg:text-4xl md:text-2xl text-xl font-bold text-purple-900 ">Users List</h2>
       <input className="border-2 border-purple-300 rounded-full p-1 lg:w-96 mg:w-64 w-40 bg-white "
         type="text"
         placeholder="Search user..."
@@ -64,7 +64,7 @@ const UsersList = ({ onLogout }) => {
         onChange={(e) => setSearch(e.target.value)}
         
       />
-      <button onClick={onLogout} className="bg-white w-15 lg:w-32 md:text-lg font-semibold text-sm p-2 hover:cursor-pointer rounded-2xl">Logout</button>
+      <button onClick={onLogout} className="bg-white w-30 p-3 hover:cursor-pointer rounded-full">Logout</button>
       </div>
     <div className="users-list-container flex flex-col items-center">
      

@@ -12,7 +12,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <div className="login-container flex justify-center items-center min-h-screen bg-purple-200 ">
-    <div className=" bg-transparent p-10 rounded-lg shadow-2xl h-96 w-64 md:w-64 lg:w-96  flex-col justify-center items-center">
+    <div className=" bg-transparent p-10 rounded-lg shadow-2xl h-96 w-96 md-w-60 flex-col justify-center items-center">
       <h2 className=" text-4xl font-bold text-purple-900 mb-5">Login</h2>
       <form onSubmit={handleSubmit} className="flex-col justify-center items-center space-y-4">
        <div><span>Email : </span> <input className="border-2 border-purple-300 rounded-md p-1"

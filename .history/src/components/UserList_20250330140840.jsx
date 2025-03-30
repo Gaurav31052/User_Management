@@ -54,9 +54,9 @@ const UsersList = ({ onLogout }) => {
   };
 
   return (
-    <div className="min-h-screen bg-purple-200 overflow-hidden ">
-    <div className="flex justify-around items-center p-5 gap-2">
-      <h2 className=" lg:text-4xl md:text-2xl text-xl font-extrabold text-purple-900 ">Users List</h2>
+    <div className="min-h-screen bg-purple-200 ">
+    <div className="flex justify-around items-center p-5">
+      <h2 className=" lg:text-4xl md:text-2xl textxl font-bold text-purple-900 ">Users List</h2>
       <input className="border-2 border-purple-300 rounded-full p-1 lg:w-96 mg:w-64 w-40 bg-white "
         type="text"
         placeholder="Search user..."
@@ -64,13 +64,13 @@ const UsersList = ({ onLogout }) => {
         onChange={(e) => setSearch(e.target.value)}
         
       />
-      <button onClick={onLogout} className="bg-white w-15 lg:w-32 md:text-lg font-semibold text-sm p-2 hover:cursor-pointer rounded-2xl">Logout</button>
+      <button onClick={onLogout} className="bg-white w-30 p-3 hover:cursor-pointer rounded-full">Logout</button>
       </div>
     <div className="users-list-container flex flex-col items-center">
      
       <div className="users-grid grid lg:grid-cols-3 gap-4 md:grid-cols-2 sm:grid-cols-1">
         {currentUsers.map(user => (
-          <div key={user.id} className="user-card min-w-2/4 lg:w-4/4 h-auto  bg-white rounded-lg shadow-lg m-5 flex flex-col items-center justify-center hover:scale-105 duration-300">
+          <div key={user.id} className="user-card min-w-4/4 h-auto  bg-white rounded-lg shadow-lg m-5 flex flex-col items-center justify-center hover:scale-105 duration-300">
             <div className="w-full bg-purple-400 flex justify-center p-5 rounded-b-2xl rounded-t-lg" ><img className="border-white border-5 rounded-full" src={user.avatar} alt="Avatar" /></div>
             <div><h3 className="font-semibold">{user.first_name} {user.last_name}</h3></div>
             <div><p><span className="font-semibold">Email: </span>{user.email}</p></div>

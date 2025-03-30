@@ -42,11 +42,11 @@ const EditUser = () => {
   return (
     
     <div className="min-h-screen bg-purple-200 flex justify-center items-center">
-    <div className="edit-user-container flex flex-col justify-center items-center bg-white py-4 rounded-lg shadow-2xl w-64 sm:p-5 md:w-64 lg:w-96">
+    <div className="edit-user-container flex flex-col justify-center items-center bg-white py-4 rounded-lg shadow-2xl w-1/4 md:">
       <h2 className="text-2xl font-semibold mb-2">Edit User</h2>
       <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4">
       
-      <div className="flex justify-center items-start flex-col md:flex-row  md:items-center "><span>First_Name: </span> <input
+      <div className="flex justify-center items-center "><span>First_Name: </span> <input
         className="border-2 border-purple-300 rounded-full p-1 w-full bg-white m-1"
           type="text"
           name="first_name"
@@ -55,7 +55,7 @@ const EditUser = () => {
           onChange={handleChange}
           required
         /></div>
-        <div className="flex justify-center items-start flex-col md:flex-row  md:items-center "><span>Last_Name: </span> <input
+        <div className="flex justify-center items-center "><span>Last_Name: </span> <input
         className="border-2 border-purple-300 rounded-full p-1 w-full bg-white m-1"
           type="text"
           name="last_name"
@@ -64,7 +64,7 @@ const EditUser = () => {
           onChange={handleChange}
           required
         /></div>
-        <div className="flex items-start justify-center  flex-col md:flex-row md:items-center "><span>Email: </span>
+        <div className="flex justify-center items-center "><span>Email: </span>
         <input
         className="border-2 border-purple-300 rounded-full p-1 w-full bg-white m-1"
           type="email"

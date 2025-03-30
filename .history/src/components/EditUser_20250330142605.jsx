@@ -42,7 +42,7 @@ const EditUser = () => {
   return (
     
     <div className="min-h-screen bg-purple-200 flex justify-center items-center">
-    <div className="edit-user-container flex flex-col justify-center items-center bg-white py-4 rounded-lg shadow-2xl w-64 sm:p-5 md:w-64 lg:w-96">
+    <div className="edit-user-container flex flex-col justify-center items-center bg-white py-4 rounded-lg shadow-2xl w-64 sm:w-64 md:w-64 lg:w-96">
       <h2 className="text-2xl font-semibold mb-2">Edit User</h2>
       <form onSubmit={handleSubmit} className="flex flex-col justify-center items-center gap-4">
       
