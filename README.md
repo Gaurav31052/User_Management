@@ -26,4 +26,4 @@ The application will now be available at http://localhost:3000/ by default.
 
 ## 🌐 Live Demo
 Check out the deployed version of the project here:
-- 🔗 (https://user-management-nuptiiqln-gauravs-projects-000c3b68.vercel.app/)
+- 🔗 (https://user-management-nuptiiqln-gauravs-projects-000c3b68.vercel.app/)](https://usermanagementinterface.netlify.app/)
